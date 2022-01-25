@@ -1,0 +1,33 @@
+{
+  "name": "qc",
+  "private": true,
+  "version": "0.1.0-a1",
+  "description": "歧语言自举编译器",
+  "license": "GPL-3.0-or-later",
+  "author": "sceext",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpl-ol/qc.git"
+  },
+  "scripts": {
+    "fmt": "prettier --write .",
+    "fmt:check": "prettier --check .",
+    "build": "npm run fmt:check && npm run build:ts",
+    "build:ts": "tsc"
+  },
+  "files": [
+    "/lib"
+  ],
+  "bin": {
+    "qc": "./lib/qc.js"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "engines": {
+    "node": ">=17.0",
+    "npm": ">=8.0"
+  }
+}

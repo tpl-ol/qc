@@ -91,4 +91,91 @@ export const 条件编译列表 = [
   关键字后端java,
 ];
 
+// 语法字符
+export const 语法字符换行 = ["\n"];
+export const 语法字符注释 = ["#"];
+export const 语法字符空格 = [" "];
+export const 语法字符转义 = ["\\"];
+export const 语法字符引号 = ['"'];
+export const 语法字符引号反 = ["`"];
+export const 语法字符引号左 = ["“"];
+export const 语法字符引号右 = ["”"];
+export const 语法字符括号小左 = ["(", "（"];
+export const 语法字符括号小右 = [")", "）"];
+export const 语法字符括号中左 = ["["];
+export const 语法字符括号中右 = ["]"];
+export const 语法字符括号大左 = ["{"];
+export const 语法字符括号大右 = ["}"];
+
+export const 语法字符句号 = ["。"];
+export const 语法字符逗号 = [",", "，"];
+export const 语法字符顿号 = ["、"];
+export const 语法字符冒号 = [":", "："];
+export const 语法字符分号 = [";", "；"];
+export const 语法字符问号 = ["?", "？"];
+export const 语法字符叹号 = ["!", "！"];
+
+export const 语法字符等号 = ["="];
+export const 语法字符减 = ["-"];
+export const 语法字符加 = ["+"];
+export const 语法字符乘 = ["*"];
+export const 语法字符除 = ["/"];
+export const 语法字符余 = ["%"];
+export const 语法字符非 = ["~"];
+export const 语法字符异或 = ["^"];
+export const 语法字符与 = ["&"];
+export const 语法字符或 = ["|"];
+export const 语法字符小于 = ["<"];
+export const 语法字符大于 = [">"];
+
+export const 语法字符 = [
+  语法字符换行,
+  语法字符注释,
+  语法字符空格,
+  语法字符转义,
+  语法字符引号,
+  语法字符引号反,
+  语法字符引号左,
+  语法字符引号右,
+  语法字符括号小左,
+  语法字符括号小右,
+  语法字符括号中左,
+  语法字符括号中右,
+  语法字符括号大左,
+  语法字符括号大右,
+
+  语法字符句号,
+  语法字符逗号,
+  语法字符顿号,
+  语法字符冒号,
+  语法字符分号,
+  语法字符问号,
+  语法字符叹号,
+
+  语法字符等号,
+  语法字符减,
+  语法字符加,
+  语法字符乘,
+  语法字符除,
+  语法字符余,
+  语法字符非,
+  语法字符异或,
+  语法字符与,
+  语法字符或,
+  语法字符小于,
+  语法字符大于,
+];
+
+export const 字符集数字起始 = "0123456789";
+export const 字符集数字 = "0123456789._xabcdef-ABCDEFo";
+export const 数字进制16 = "0x";
+export const 数字进制8 = "0o";
+export const 数字进制2 = "0b";
+export const 数字指数 = "e";
+
+export const 数字进制前缀 = [数字进制16, 数字进制8, 数字进制2];
+// TODO
+export const 数字格式检查正则 =
+  /^([0-9][0-9]*(\.[0-9]*)?(e\-?[0-9]*)?)|(0x[0-9a-fA-F]+)|(0o[0-7]+)|(0b[01]+)$/;
+
 // TODO
